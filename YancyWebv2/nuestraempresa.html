@@ -7,6 +7,7 @@
 	<title>Mundo SOFT</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
 
@@ -56,7 +57,7 @@
 	        <a class="nav-link" href="casos.html">Casos de Éxito</a>
 	      </li>
 	       <li class="nav-item ">
-	        <a class="nav-link" href="#">Contacto</a>
+	        <a class="nav-link" href="contacto.html">Contacto</a>
 	      </li>
 	    </ul>
 	   
@@ -67,24 +68,32 @@
 
 	
 	
-	<div id="nuestraempresa">
-		<img src="css/images/logo2.png" alt="logo2">
+	<div id="nuestraempresa" class="animatedParent">
+		<img class='animated growIn slower' data-id='1' src="css/images/logo2.png" alt="logo2">
 	</div>
 			<div class="flecha">
-				<div class="contenido">
+				<div class="contenido ">
 					<br>
-					<img src="css/images/flechaabajo.png" alt="foto flech abajo"><br><br>
+					<span class="animatedParent">
+						
+						<img class='animated bounceInDown'  data-id='2' src="css/images/flechaabajo.png" alt="foto flecha abajo"><br><br>
+					</span>
+					
 					<strong>MUNDOSOFT</strong>, es una fírma Colombiana creada con la estrategia de ofrecer Soluciones<br>
 					Inteligentes en el área de la Informática, para de esta manera lograr que nuestros clientes<br>
 					puedan ser más eficaces y eficientes en su operatividad diaria <br> <br>
-					<img src="css/images/flechaarriba.png" alt="foto flecha arriba"> <br>
+					<span class="animatedParent">
+					<img class='animated bounceInUp'  data-id='3' src="css/images/flechaarriba.png" alt="foto flecha arriba"> <br>
+					</span>
 				</div>
 			</div>
 			<div class="contenedor5">
 				<div >
 					<div class="hijoscontenedor5">
 						<div class="hc5hijosombra">
-							<img src="css/images/fleabajoicon.png" alt="foto flecha abajo">
+							<span class="animatedParent">
+								<img class='animated bounceInDown' data-id='4' src="css/images/fleabajoicon.png" alt="foto flecha abajo">
+							</span>
 							<div class="titulope">
 								OFRECEMOS <br>
 								PRODUCTOS<br>
@@ -96,7 +105,9 @@
 							</div>
 						</div>
 						<div class="hc5hijosombra">
-							<img src="css/images/fleabajoicon.png" alt="foto flecha abajo">
+							<span class="animatedParent">
+								<img class='animated bounceInDown' data-id='5' src="css/images/fleabajoicon.png" alt="foto flecha abajo">
+							</span>
 							<div class="titulope">
 								LO MÁS <br>
 								IMPORTANTE ES <br>
@@ -111,7 +122,9 @@
 					<div class="hc5hijosombra hijo5unico">
 							
 							<div class="titulope">
-								<img src="css/images/fleabajoicon.png" alt="foto flecha abajo"><br>
+								<span class="animatedParent">
+								<img class='animated bounceInDown' data-id='6' src="css/images/fleabajoicon.png" alt="foto flecha abajo">
+							</span>
 								CREAMOS SOLUCIONES QUE <br>
 								AGILIZAN LA COBRANZA DE CARTERA <br>
 							</div>
@@ -173,6 +186,7 @@ Contamos con una Plataforma tecnológica de punta que permite la interacción co
 	</footer>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.bundle.js"></script>	
+	<script src="js/css3-animate-it.js"></script>
 	<script>
 		$('a[href^="#"]').on('click', function(event) {
 

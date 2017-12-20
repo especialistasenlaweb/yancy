@@ -7,6 +7,7 @@
 	<title>Mundo SOFT</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
 
@@ -57,7 +58,7 @@
 	        <a class="nav-link" href="casos.html">Casos de Éxito</a>
 	      </li>
 	       <li class="nav-item ">
-	        <a class="nav-link" href="#">Contacto</a>
+	        <a class="nav-link" href="contacto.html">Contacto</a>
 	      </li>
 	    </ul>
 	   
@@ -69,16 +70,16 @@
 	
 	
 	<div id="truepay">
-		<div>
-			<img src="css/images/truepay negweb.png" alt="logo">
+		<div class="animatedParent">
+			<img class='animated growIn slower' data-id='1' src="css/images/truepay negweb.png" alt="logo">
 		</div>
-		<div>
-			<img src="css/images/truepayweb.png" alt="pantallo true ">
+		<div class="animatedParent">
+			<img class='animated bounceInDown slower' data-id='2' src="css/images/truepayweb.png" alt="pantallo true ">
 		</div>
 	</div>
 	<div class="contenedor10">
-		<div>
-			<img src="css/images/truepaylupa.png" alt=" foto truepay">
+		<div class="animatedParent">
+			<img class='animated bounceIn slower' data-id='3' src="css/images/truepaylupa.png" alt=" foto truepay">
 		</div>
 		<div>
 			Es un <strong>sistema</strong> modular que se encarga de controlar y <br>
@@ -340,6 +341,7 @@
 	</footer>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.bundle.js"></script>	
+	<script src="js/css3-animate-it.js"></script>
 	<script>
 		$('a[href^="#"]').on('click', function(event) {
 
