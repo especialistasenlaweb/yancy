@@ -33,8 +33,8 @@ footer .milista{
 
 }
 /*ul.milista{
-	
-	 justify-content: center; 
+
+	 justify-content: center;
 	list-style: none;
 	padding: 0px;
 	margin: 0px;
@@ -62,6 +62,32 @@ span.caja:hover{
 }
 #casos .galeria div{
 	/* padding:2em; */
+}
+#contacto{
+	/* background:silver; */
+	margin:0 auto;
+	width:40%;
+}
+#contacto input{
+	border:solid rgb(9, 198, 217) 0.09em;
+	display:block;
+	margin-bottom:0.2em;
+	padding-left: 1em;
+	width:100%;
+}
+#contacto input[type="submit"]{
+	background: rgb(9, 198, 217);
+	border-radius:0.5em;
+	color:#fff;
+	letter-spacing: 0.2em;
+	width:20%;
+	font-weight: bolder;
+	text-align: left;
+	/* width:30%; */
+}
+#contacto textarea{
+	padding-left: 1em;
+	width:100%;
 }
 #nuestraempresa{
 	align-items:flex-start;
@@ -194,12 +220,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;	
+	width:100%;
 }
 .contenedor7{
 	align-items:center;
 	background:rgba(100,100,100,0.2);
-	
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -207,12 +233,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;	
+	width:100%;
 }
 .contenedor8{
 	align-items:center;
-	
-	
+
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -220,12 +246,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;		
+	width:100%;
 }
 .contenedor10{
 	align-items:center;
-	
-	
+
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -233,12 +259,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;		
+	width:100%;
 }
 .contenedor11{
 	align-items:center;
-	
-	
+
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -246,12 +272,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;	
+	width:100%;
 }
 .contenedor12{
 	align-items:center;
-	
-	
+
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -259,12 +285,12 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;	
+	width:100%;
 }
 .contenedor13{
 	align-items:center;
-	
-	
+
+
 	/*border:solid; */
 	box-sizing:border-box;
 	display:flex;
@@ -272,7 +298,7 @@ span.caja:hover{
 	/* border:solid; */
 	padding:2em;
 	/* text-align:center; */
-	width:100%;	
+	width:100%;
 }
 .contenedor3 div{
 	width: 40%;
@@ -307,7 +333,7 @@ span.caja:hover{
 
 .contenedor13{
 	background:rgba(100,100,100,0.2);
-	
+
 }
 .c9conte{
 	display:flex;
@@ -353,7 +379,7 @@ span.caja:hover{
 	cursor:pointer;
 	float:right;
 	width:50%;
-	
+
 }
 
 .flechasarriba{
@@ -414,12 +440,12 @@ a.enlace{
 }
 
 .milista li:nth-child(1) {
-	
+
 	background: url("images/celular.png") no-repeat;
 	/* border:solid; */
 	/* line-height: 2em; */
 
-	
+
 }
 .milista li:nth-child(2) {
 	background: url("images/contacto.png") no-repeat;
@@ -447,13 +473,13 @@ li.relleno{
 .soluciones li,.solucionesinicio li{
 	/*border:solid;*/
 	cursor:pointer;
-	
+
 	padding:0.4em 3em 0;
 	margin:1em;
 }
 .solucionestrue>li{
 	cursor:pointer;
-	
+
 	padding:0.4em 3em 0;
 	margin:1em;
 }
@@ -467,17 +493,17 @@ li.relleno{
 	color: #0ECAD6;
 }
 .soluciones li:hover{
-	background:url("images/se.png") no-repeat -0.1em 1em; 
+	background:url("images/se.png") no-repeat -0.1em 1em;
 	border-bottom:#02D2C1  solid 0.09em;
 	/*box-shadow:0 0 0.5em rgba(0,0,0,0.5);*/
 }
 .solucionesinicio li:hover{
-	background:url("images/se.png") no-repeat -0.1em 1em; 
+	background:url("images/se.png") no-repeat -0.1em 1em;
 	/* border-bottom:#02D2C1  solid 0.09em; */
 	/*box-shadow:0 0 0.5em rgba(0,0,0,0.5);*/
 }
 .solucionestrue>li:hover{
-	background:url("images/se.png") no-repeat -0.1em 1em; 
+	background:url("images/se.png") no-repeat -0.1em 1em;
 	border-bottom:#02D2C1  solid 0.09em;
 	/*box-shadow:0 0 0.5em rgba(0,0,0,0.5);*/
 }
@@ -517,7 +543,7 @@ li.relleno{
 	font-weight:bolder;
 	margin:1em 0;
 	padding-left:2em;
-	
+
 }
 .titulogra{
 	color:#515f7f;
@@ -537,12 +563,16 @@ li.relleno{
 	header,.contenedor1,.contenedor2,.contenedor3,.contenedor4,footer,.contenedor5,.contenedor6,.contenedor7,.contenedor8,.contenedor9,.contenedor10,.contenedor11,.contenedor12,.contenedor13{
 		background-size:cover;
 		flex-direction: column;
+		width:100%;
+	}
+	.contenedor1 div,.contenedor2 div,.contenedor3 div{
+		width:100%;
 	}
 	.item{
 		display:block;
 		border-right:solid 0.09em;
 		padding:0.2em;
-	
+
 	}
 	.milista{
 		display:flex;
@@ -552,4 +582,3 @@ li.relleno{
 	width:100%;
 	}
 }
-
