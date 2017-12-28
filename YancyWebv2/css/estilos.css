@@ -1,5 +1,9 @@
+*{
+	/* border:solid; */
+}
 body{
-	/*max-width: 1350px;*/
+	/* max-width: 1350px; */
+	/* overflow-x: hiiden; */
 }
 /* 38 59 93 */
 header{
@@ -8,9 +12,10 @@ header{
 
 }
 header .logomain{
-	width:90%;
+	width:100%;
 }
-footer{
+
+footer .contepie{
 	align-items:center;
 	background:url("images/fondofooter.png") no-repeat;
 	background-size:100% 100%;
@@ -44,6 +49,7 @@ span.caja{
 	/*border:solid;*/
 	padding:0.6em;
 	display:block;
+	margin:-1em auto;
 }
 span.caja:hover{
 	box-shadow:0 0 0.5em rgba(0,0,0,0.5);
@@ -149,6 +155,10 @@ span.caja:hover{
 }
 .contenido{
 	font-size: 1.2em;
+}
+.conte{
+	margin:2em auto;
+	width:60%
 }
 .contenedor{
 	text-align:center;
@@ -301,7 +311,7 @@ span.caja:hover{
 	width:100%;
 }
 .contenedor3 div{
-	width: 40%;
+	/* width: 40%; */
 }
 .contenedor3 .parte1{
 	width:30%;
@@ -313,10 +323,11 @@ span.caja:hover{
 
 .contenedor4 img{
 	margin-bottom:1.5em;
+	width:50%;
 }
 .contenedor2 div{
 	/*border:solid;*/
-	padding:3em;
+	padding:0.1em 3em;
 }
 .contenedor2 div:nth-child(2){
 	border-left:#0AAEEB solid 0.09em;
@@ -378,7 +389,7 @@ span.caja:hover{
 .inicioarrow{
 	cursor:pointer;
 	float:right;
-	width:50%;
+	width:40%;
 
 }
 
@@ -394,6 +405,7 @@ span.caja:hover{
 
 .contenedor .fotoproducto{
 	width:40%;
+	border:solid;
 }
 .contenedor3 .fotoproducto img{
 	width:100%;
@@ -428,6 +440,10 @@ a.enlace{
 .flecha div{
 	text-align: center;
 }
+.iniciop1{
+	/* border:solid; */
+	width:30%;
+}
 .menugenerico{
 	list-style:none;
 }
@@ -461,6 +477,10 @@ a.enlace{
 }
 .navbar{
 	padding:0!important;
+}
+.nav-link {
+    display: block;
+    padding: .2rem 1rem!important;
 }
 li.relleno{
 	/* border: solid; */
