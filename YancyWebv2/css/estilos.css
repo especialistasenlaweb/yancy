@@ -580,7 +580,10 @@ li.relleno{
 	/* font-family:impact; */
 }
 @media screen and (max-width:700px){
-	header,.contenedor1,.contenedor2,.contenedor3,.contenedor4,footer,.contenedor5,.contenedor6,.contenedor7,.contenedor8,.contenedor9,.contenedor10,.contenedor11,.contenedor12,.contenedor13{
+ #contacto input[type="submit"]{
+	 width:100%;
+ }
+	#casos .galeria,#truepay,#quasar,footer .contepie,header,.contenedor1,.contenedor2,.contenedor3,.contenedor4,footer,.contenedor5,.contenedor6,.contenedor7,.contenedor8,.contenedor9,.contenedor10,.contenedor11,.contenedor12,.contenedor13{
 		background-size:cover;
 		flex-direction: column;
 		width:100%;
@@ -588,6 +591,14 @@ li.relleno{
 	.contenedor1 div,.contenedor2 div,.contenedor3 div{
 		width:100%;
 	}
+	.contenedor3 .parte1{
+		width:100%;
+	}
+	.contenedor4>div{
+		padding-left:3em;
+		width:100%;
+	}
+
 	.item{
 		display:block;
 		border-right:solid 0.09em;
@@ -596,7 +607,8 @@ li.relleno{
 	}
 	.milista{
 		display:flex;
-		justify-content:space-between;
+		flex-direction: column;
+		/* justify-content:space-between; */
 	}
 	#nuestraempresa img{
 	width:100%;
