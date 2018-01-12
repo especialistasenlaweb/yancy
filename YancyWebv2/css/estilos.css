@@ -57,6 +57,9 @@ span.caja:hover{
 .milista{
 	margin-left:3em;
 }
+.milista div img{
+	width:30px;
+}
 #casos .galeria{
 	align-items: center;
 	box-sizing: border-box;
@@ -88,6 +91,7 @@ span.caja:hover{
 	letter-spacing: 0.2em;
 	width:20%;
 	font-weight: bolder;
+	font-style:italic;
 	text-align: left;
 	/* width:30%; */
 }
@@ -110,6 +114,10 @@ span.caja:hover{
 #nuestraempresa img{
 	width:60%;
 }
+#pieq{
+	margin-top:-5.8em;
+}
+
 #quasar{
 	align-items: center;
 	background:url("images/fondoquasar.png") no-repeat;
@@ -117,17 +125,23 @@ span.caja:hover{
 	display:flex;
 	justify-content:center;
 	/* border:solid; */
-	padding:4em;
-	width:100%;
+	/* padding:4em; */
+	/* width:100%; */
 }
 #truepay{
 	background:url("images/fondotrueplay.png") no-repeat;
 	background-size:100% 100%;
 	display:flex;
-	justify-content:space-around;
+	justify-content:center;
 	/* border:solid; */
-	padding:4em;
+	/* padding:4em; */
 	width:100%;
+}
+.barra{
+	/* border:solid; */
+	/* background: blue; */
+	height:150px;
+	/* width:10px; */
 }
 .black{
 	color: #000;
@@ -179,10 +193,13 @@ span.caja:hover{
 	justify-content:space-around;
 	/* border:solid; */
 	padding:4em;
+	position:relative;
 	width:100%;
+	z-index:-1;
 }
 .contenedor2{
 	/*border:solid; */
+	align-items: center;
 	box-sizing:border-box;
 	display:flex;
 	justify-content:center;
@@ -193,10 +210,11 @@ span.caja:hover{
 .contenedor3{
 	/*border:solid; */
 	align-items:center;
+	/* border:solid; */
 	box-sizing:border-box;
 	display:flex;
 	justify-content:center;
-	/* border:solid; */
+	margin:0 auto;
 	/*padding:4em;*/
 	width:100%;
 }
@@ -306,7 +324,7 @@ span.caja:hover{
 	display:flex;
 	justify-content:center;
 	/* border:solid; */
-	padding:2em;
+	padding:4em 1em;
 	/* text-align:center; */
 	width:100%;
 }
@@ -319,15 +337,18 @@ span.caja:hover{
 .contenedor4>div{
 	padding-left:3em;
 	width:20%;
+	line-height:1.2em;
 }
 
 .contenedor4 img{
 	margin-bottom:1.5em;
-	width:50%;
+	width:30%;
 }
 .contenedor2 div{
-	/*border:solid;*/
-	padding:0.1em 3em;
+	/* padding:0.1em 3em; */
+}
+.contenedor2>div{
+	margin-left:1em;
 }
 .contenedor2 div:nth-child(2){
 	border-left:#0AAEEB solid 0.09em;
@@ -360,6 +381,10 @@ span.caja:hover{
 }
 .contenedor11{
 	background:rgba(100,100,100,0.1);
+}
+.estilo{
+	font-weight:bolder;
+	font-style:italic;
 }
 .galeria img:hover{
 	transform:scale(1.1,1.1);
@@ -404,11 +429,13 @@ span.caja:hover{
 }
 
 .contenedor .fotoproducto{
-	width:40%;
+	/* width:40%; */
 	border:solid;
 }
 .contenedor3 .fotoproducto img{
-	width:100%;
+	/* width:100%; */
+	/* position:relative; */
+	/* z-index:10; */
 }
 .contenedor3 div{
 	/* border:solid; */
@@ -420,6 +447,11 @@ span.caja:hover{
 .contenedor2 .texto{
 	/* border:solid; */
 	text-align:center;
+}
+.contenido{
+	/* border:solid; */
+	width:60%;
+	margin:0 auto;
 }
 a.enlace{
 	background:#0AAEEB;
@@ -440,12 +472,17 @@ a.enlace{
 .flecha div{
 	text-align: center;
 }
+.galeria{
+	margin-left:2em;
+}
 .iniciop1{
 	/* border:solid; */
 	width:30%;
 }
 .menugenerico{
+	/* border:solid; */
 	list-style:none;
+	padding-bottom: 3em;
 }
 .menugenerico li{
 		background: url("images/se.png") no-repeat;
@@ -510,7 +547,8 @@ li.relleno{
 }
 .solucionestrue ul>li{
 	content: "• ";
-	color: #0ECAD6;
+	color: #029CC3;
+	font-weight:bolder;
 }
 .soluciones li:hover{
 	background:url("images/se.png") no-repeat -0.1em 1em;
@@ -575,18 +613,36 @@ li.relleno{
 	color:#08ABC3;
 	/* color:#66b5da; */
 	font-weight:bolder;
-	font-size:1.4em;
+	font-size:1.8sem;
 	letter-spacing:0.01em;
 	/* font-family:impact; */
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:960px){
+
+	#contacto{
+		width:90%;
+	}
+	#pieq{
+		margin-top:-10em;
+	}
+	header .logomain{
+		/* width:200px; */
+	}
+.iniciop1{
+	width:100%;
+}
  #contacto input[type="submit"]{
+
 	 width:100%;
+
  }
 	#casos .galeria,#truepay,#quasar,footer .contepie,header,.contenedor1,.contenedor2,.contenedor3,.contenedor4,footer,.contenedor5,.contenedor6,.contenedor7,.contenedor8,.contenedor9,.contenedor10,.contenedor11,.contenedor12,.contenedor13{
 		background-size:cover;
 		flex-direction: column;
 		width:100%;
+	}
+	#truepay{
+		text-align:center;
 	}
 	.contenedor1 div,.contenedor2 div,.contenedor3 div{
 		width:100%;
@@ -595,20 +651,23 @@ li.relleno{
 		width:100%;
 	}
 	.contenedor4>div{
+		/* border:solid; */
 		padding-left:3em;
+		margin-bottom:2em;
 		width:100%;
 	}
 
 	.item{
 		display:block;
-		border-right:solid 0.09em;
+		/* border-right:solid 0.09em; */
 		padding:0.2em;
 
 	}
 	.milista{
-		display:flex;
-		flex-direction: column;
+		/* display:flex; */
+		/* flex-direction:row; */
 		/* justify-content:space-between; */
+		text-align:center;
 	}
 	#nuestraempresa img{
 	width:100%;

@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>MundoSoft</title>
+	<link rel="icon" href="css/favicon.ico" type="image/x-icon" />
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -19,7 +20,9 @@
 
 	<header id="inicio">
 		<div class="iniciop1">
+			<a href="index.html">
 			<img  src="css/images/logo.png" alt="logo" class="logomain">
+		</a>
 		</div>
 		<div>
 			<div class="milista">
@@ -73,14 +76,14 @@
 	</div><br>
 	<form action="" method="post" id="contacto">
 		<fieldset>
-			<input type="text" id="nombre" name="nombre" placeholder="Nombre">
-			<input type="text" id="cargo" name="cargo" placeholder="Cargo">
-			<input type="text" id="empresa" name="empresa" placeholder="Empresa">
-			<input type="text" id="telefono" name="telefono" placeholder="Teléfono">
-			<input type="text" id="email" name="email" placeholder="Email">
-			<input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
-			<input type="text" id="pais" name="pais" placeholder="país">
-			<textarea id="comentario" name="comentario" placeholder="Comentario"></textarea>
+			<input type="text" id="nombre" name="nombre" placeholder="Nombre"  required>
+			<input type="text" id="cargo" name="cargo" placeholder="Cargo"  required>
+			<input type="text" id="empresa" name="empresa" placeholder="Empresa" required>
+			<input type="text" id="telefono" name="telefono" placeholder="Teléfono" required>
+			<input type="email" id="email" name="email"  placeholder="Email" required>
+			<input type="text" id="ciudad" name="ciudad" placeholder="Ciudad" required>
+			<input type="text" id="pais" name="pais" placeholder="País" required>
+			<textarea rows="6" id="comentario" name="comentario" placeholder="Comentario" required></textarea>
 			<input type="submit" id="enviar" name="enviar" value="enviar">
 		</fieldset>
 
@@ -109,7 +112,7 @@
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
+					<li class="nav-item ">
 						<a class="nav-link " href="#">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
@@ -125,7 +128,7 @@
 					 <li class="nav-item ">
 						<a class="nav-link" href="casos.html">Casos de Éxito</a>
 					</li>
-					 <li class="nav-item ">
+					 <li class="nav-item  active">
 						<a class="nav-link" href="contacto.html">Contacto</a>
 					</li>
 				</ul>
@@ -150,6 +153,10 @@
 	        },1000);
 	    }
 
+	});
+
+	$("form").submit(function(){
+		alert("Correo Enviado");
 	});
 	</script>
 
